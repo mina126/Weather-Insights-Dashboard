@@ -110,5 +110,5 @@ It demonstrates strong skills in data analysis, automation, and business intelli
 
 Below is a sample preview of the interactive Weather Dashboard created in Power BI.
 You can replace this section with your actual dashboard image when uploading to GitHub:
-![Weather Dashboard Preview](Weather-Insights-Dashboard/Dashboard/weather_dashboard_preview.png)
+![Weather Dashboard Preview](Dashboard/weather_dashboard_preview.png)
 
