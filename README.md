@@ -1,8 +1,9 @@
 # Weather-Insights-Dashboard
 A real-time interactive Weather &amp; Air Quality Dashboard built with Power BI, using Weather API, Power Query, and DAX to visualize temperature, humidity, wind speed, air pollution levels, and forecast trends across Egyptian cities.
 
+![weathr](Data/Icons/weather.gif)
 
-🌦️ Weather Insights Dashboard – Power BI Project
+🌦️ # Weather Insights Dashboard – Power BI Project
 📋 Overview
 
 This project presents a Weather Insights Dashboard built in Power BI, designed to visualize real-time and forecasted weather conditions across multiple cities in Egypt.
