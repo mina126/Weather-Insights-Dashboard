@@ -60,13 +60,16 @@ This ensured clean, optimized data ready for DAX modeling.
 
 Dynamic DAX measures were created to summarize and format weather metrics for visual representation.
 
-Measure Name	Description	Formula
-Curr_Temp_C	Displays the current temperature in Celsius.	SUM('Current'[current.temp_c]) & "°C"
-For_Temp_C	Calculates average forecast temperature.	AVERAGE(Forcast_Day[forecast.forecastday.day.avgtemp_c]) & "°C"
-Last_Updated_Date	Shows the date and time of the last data update.	"Last Updated, " & FORMAT(FIRSTNONBLANK('Current'[current.last_updated], ""), "dd mmm yy")
-Wind_Speed	Displays wind speed in kilometers per hour.	SUM('Current'[current.wind_kph]) & " Kph"
-Left_Value_Rain	Calculates the percentage of non-rainy days.	100 - SUM(Forcast_Day[forecast.forecastday.day.daily_chance_of_rain])
-Day_Name	Extracts and formats the forecasted day name.	FORMAT(Forcast_Day[forecast.forecastday.date], "ddd")
+
+| **Measure Name**      | **Description**                                  | **Formula**                                                                                  |
+| --------------------- | ------------------------------------------------ | -------------------------------------------------------------------------------------------- |
+| **Curr_Temp_C**       | Displays the current temperature in Celsius.     | `SUM('Current'[current.temp_c]) & "°C"`                                                      |
+| **For_Temp_C**        | Calculates average forecast temperature.         | `AVERAGE(Forcast_Day[forecast.forecastday.day.avgtemp_c]) & "°C"`                            |
+| **Last_Updated_Date** | Shows the date and time of the last data update. | `"Last Updated, " & FORMAT(FIRSTNONBLANK('Current'[current.last_updated], ""), "dd mmm yy")` |
+| **Wind_Speed**        | Displays wind speed in kilometers per hour.      | `SUM('Current'[current.wind_kph]) & " Kph"`                                                  |
+| **Left_Value_Rain**   | Calculates the percentage of non-rainy days.     | `100 - SUM(Forcast_Day[forecast.forecastday.day.daily_chance_of_rain])`                      |
+| **Day_Name**          | Extracts and formats the forecasted day name.    | `FORMAT(Forcast_Day[forecast.forecastday.date], "ddd")`                                      |
+
 📊 Dashboard Features
 
 Real-time updates directly from the Weather API.
