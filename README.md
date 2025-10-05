@@ -40,7 +40,7 @@ Forecast Data – containing daily weather averages, temperature, and rain proba
 
 Through Power Query, the JSON was parsed and transformed into structured relational tables (Current, Forecast_Day), which were later connected in Power BI’s data model.
 
-🧩 Power Query (Data Transformation)
+### 🧩 Power Query (Data Transformation)
 
 All data transformations were done using Power Query.
 Key steps included:
@@ -57,7 +57,7 @@ Removing unnecessary attributes to improve refresh speed.
 
 This ensured clean, optimized data ready for DAX modeling.
 
-🧮 DAX Implementation
+### 🧮 DAX Implementation
 
 Dynamic DAX measures were created to summarize and format weather metrics for visual representation.
 
@@ -71,7 +71,7 @@ Dynamic DAX measures were created to summarize and format weather metrics for vi
 | **Left_Value_Rain**   | Calculates the percentage of non-rainy days.     | `100 - SUM(Forcast_Day[forecast.forecastday.day.daily_chance_of_rain])`                      |
 | **Day_Name**          | Extracts and formats the forecasted day name.    | `FORMAT(Forcast_Day[forecast.forecastday.date], "ddd")`                                      |
 
-📊 Dashboard Features
+### 📊 Dashboard Features
 
 Real-time updates directly from the Weather API.
 
@@ -83,7 +83,7 @@ City-based filters to switch between different Egyptian locations.
 
 Clean, modern Power BI interface with intuitive visuals and icons.
 
-🧠 Key Insights
+### 🧠 Key Insights
 
 Provides a quick view of Egypt’s weather trends (current & forecast).
 
@@ -93,7 +93,7 @@ Automates data updates with every API refresh.
 
 Combines Power BI, Power Query, and DAX in one integrated workflow.
 
-💡 Skills Demonstrated
+### 💡 Skills Demonstrated
 
 API Data Extraction
 
@@ -105,12 +105,12 @@ Interactive Dashboard Design
 
 Data Storytelling
 
-🚀 Outcome
+### 🚀 Outcome
 
 This project showcases a complete data pipeline inside Power BI, from connecting to an external API, cleaning JSON data, modeling relationships, to creating visually compelling insights through DAX and reports.
 It demonstrates strong skills in data analysis, automation, and business intelligence development.
 
-🖼️ Dashboard Preview
+### 🖼️ Dashboard Preview
 
 Below is a sample preview of the interactive Weather Dashboard created in Power BI.
 You can replace this section with your actual dashboard image when uploading to GitHub:
