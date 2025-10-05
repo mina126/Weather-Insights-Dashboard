@@ -118,11 +118,11 @@ You can replace this section with your actual dashboard image when uploading to 
 
 📂 Weather-Insights-Dashboard/
 │
-├── 📄 Weather_Insights_Dashboard.pbix      # Power BI file (main dashboard)
-├── 📄 README.md                            # Project documentation
+├── 📄 Weather_Insights_Dashboard.pbix      #Power BI file (main dashboard)
+├── 📄 README.md                            #Project documentation
 ├── 📂 images/
-│   └── weather_dashboard_preview.png       # Dashboard screenshot
-└── 📄 data_sample.json                     # Example of API response (optional)
+│   └── weather_dashboard_preview.png       #Dashboard screenshot
+└── 📄 data_sample.json                     #Example of API response (optional)
 
 
 
