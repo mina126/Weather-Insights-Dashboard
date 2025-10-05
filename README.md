@@ -9,7 +9,7 @@ A real-time interactive Weather &amp; Air Quality Dashboard built with Power BI,
 This project presents a Weather Insights Dashboard built in Power BI, designed to visualize real-time and forecasted weather conditions across multiple cities in Egypt.
 The goal was to create a fully automated, data-driven dashboard that retrieves live weather data via an API, processes it dynamically through Power Query, and delivers key insights using DAX measures.
 
-🎯 Objective
+### 🎯 Objective
 
 To design an interactive dashboard that:
 
@@ -21,7 +21,7 @@ Allows users to compare weather conditions across different Egyptian cities.
 
 Updates dynamically based on the latest available data.
 
-🧰 Tools & Technologies
+### 🧰 Tools & Technologies
 Category	Tools / Languages
 Data Source	Weather API (https://www.weatherapi.com
 )
